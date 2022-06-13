@@ -1,2 +1,0 @@
-# employeeBirthday
-Technical Assessment
