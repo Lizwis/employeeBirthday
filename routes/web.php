@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\employeeController;
+use App\Mail\employeeMail;
 
 
 
@@ -19,8 +20,4 @@ use App\Http\Controllers\employeeController;
 
 
  
-Route::get('/birthday', [employeeController::class, 'index']);
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [employeeController::class, 'index']);
