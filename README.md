@@ -7,7 +7,7 @@ Technical Assessment
 1. `composer install`
 1. rename or copy `.env.example` file to `.env` on root folder
 5. Enter your email credentials in your `.env` file, edit the following
-    -- `MAIL_MAILER=smtp`
+    - `MAIL_MAILER=smtp`
     `MAIL_HOST=mailhog`
     `MAIL_PORT=1025`
     `MAIL_USERNAME=null`
